@@ -1,0 +1,26 @@
+/* page header style*/
+
+.header {
+ font-size: 4rem;
+ background-color: var(--mujiBackground-color);
+ width: 100%;
+ height: 130px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: fixed;
+ top: 0;
+ border-bottom: var(--border-bottom);
+}
+
+.header:hover {
+  background-color: var(--mujiBorder-color); 
+  color: white;
+  border-bottom: 4px solid white;
+}
+
+@media (max-width: 670px) {
+  .header {
+    display: none;
+  }
+}

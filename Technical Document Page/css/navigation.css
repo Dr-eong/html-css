@@ -1,0 +1,49 @@
+/* navigation style */
+
+nav {
+ width: 240px;
+ height: 100%;
+ background-color: var(--mujiBackground-color);
+ border-right: 4px solid var(--mujiBorder-color);
+ position: fixed;
+ top: 130px;
+}
+
+.nav-header,
+.nav-list li {
+ width: 100%;
+ height: 70px;
+ font-size: 2.5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-bottom: var(--border-bottom);
+}
+
+.nav-header:hover,
+.nav-list li:hover {
+  background-color: var(--mujiBorder-color); 
+  color: white;
+  border-bottom: 4px solid white;
+}
+
+.nav-list {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.nav-link {
+ font-size: 2.3rem;
+ text-decoration: none;
+ color: black; 
+}
+
+.nav-link:hover{
+ font-size: 2rem;
+ color: white;
+}
+.nav-link:hover::before {
+ content: ">>";
+ color: white;
+}

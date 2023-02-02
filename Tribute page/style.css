@@ -1,0 +1,113 @@
+body {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-size: 62.5%;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+#main {
+ background-color:rgba(65, 105, 225, 0.6);
+ width: 80%;
+ height: auto;
+ max-width: 850px;
+ min-width: 600px;
+ margin: 0 auto 0 auto;
+}
+
+.header {
+ text-align: center;
+ padding-top: 10px;
+}
+
+.header h1 {
+ font-size: 2.5rem;
+ margin-bottom: 0;
+ font-weight: 800;
+}
+
+.header p {
+ font-style: italic;
+ font-size: 1rem;
+ margin-bottom: 36px;
+}
+
+#img-div {
+ background-color: aliceblue;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+figcaption {
+ font-size: 1rem;
+ font-style: italic;
+ text-align: center;
+ margin-top: 10px;
+}
+
+#image {
+ width: 100%;
+ height: auto;
+ border-radius: 5px;
+ margin-top: 15px;
+}
+
+#tribute-info {
+ font-size: 1.1rem;
+ width: 60%;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 10px auto;
+}
+
+.tribute-info-title {
+ font-size: 1.2rem;
+ font-weight: 800;
+ margin-top: 30px;
+}
+
+.tribute-life-list li{
+ margin-bottom: 1rem;
+}
+
+.book {
+ font-weight: 700;
+ font-style: italic;
+}
+.book::before{
+ content: "[";
+}
+.book::after{
+ content: "]";
+}
+
+.opinion {
+ width: 70%;
+ font-size: 1rem;
+ text-indent: 0.8rem;
+ text-align: center;
+ margin: 20px auto  40px auto;
+}
+
+hr {
+ width: 100%;
+ height: 5px;
+ background-color: rgba(65, 105, 225, 1);
+ border: none;
+}
+
+footer {
+ font-size: 1.3rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+footer a {
+ color: azure;
+}

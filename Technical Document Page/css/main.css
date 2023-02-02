@@ -1,0 +1,52 @@
+/* main document style */
+
+#main-doc {
+ position: relative;
+ margin-left: 250px;
+ padding-bottom: 40px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ z-index: -1;
+}
+
+.main-section {
+ width: 90%;
+ height: 100%;
+ padding-top: 120px;
+ font-size: 1.7rem;
+}
+
+.section-header {
+ width: fit-content;
+ font-size: 2em;
+ padding: 1rem;
+ margin-top: 20px;
+ border-bottom: var(--border-bottom);
+}
+
+article {
+ margin-top: 2rem;
+}
+
+.main-content {
+ margin-bottom: 2rem;
+ font-weight: bold;
+ text-indent: 1.5rem;
+}
+
+.code {
+ display: block;
+ width: 100%;
+ height: fit-content;
+ background-color: var(--mujiBackground-color);
+}
+
+.list-content {
+ margin: 0.3rem 0;
+}
+
+#if article p:last-child {
+ margin-top: 2rem;
+}
+

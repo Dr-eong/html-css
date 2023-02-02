@@ -1,0 +1,18 @@
+.form-group:last-child {
+ display: flex;
+ justify-content: center;
+}
+.submit-button {
+ border: none;
+ background-color: rgba(97, 197, 84, 1);
+ width: 150px;
+ height: 70px;
+ color: white;
+ border-radius: 5%;
+ font-size: 1.5rem;
+}
+
+.submit-button:hover {
+ border: 2px solid white;
+ color:midnightblue;
+}

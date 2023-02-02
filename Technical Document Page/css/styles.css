@@ -1,0 +1,20 @@
+@import "./page-header.css";
+@import "./main.css";
+@import "./navigation.css";
+
+:root {
+ --mujiBorder-color: rgb(117, 20 ,29);
+ --mujiBackground-color: rgb(211, 181 ,136);
+ --border-bottom: 4px solid var(--mujiBorder-color);
+}
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+
+html {
+ font-size: 62.5%;
+}
